@@ -9,14 +9,14 @@ Followed the tutorial for a succesful boot
 3. make (gmake)
 
 ### To Run
-`
-git clone https://github.com/not-hexil/helOS.git<br>
-cd limine-barebones<br>
-make all<br>
-chmod +x makeISO.sh<br>  
-./makeISO.sh<br>
-qemu-system-x86_64 -cdrom image.iso -m 512M -serial stdio  
-`
+```bash
+git clone https://github.com/not-hexil/helOS.git
+cd limine-barebones
+make all
+chmod +x makeISO.sh
+./makeISO.sh
+qemu-system-x86_64 -cdrom image.iso -m 512M -serial stdio
+```
 
 ### Expected Result
 A gradient screen upon successful boot.
