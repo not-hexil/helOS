@@ -10,12 +10,12 @@ Followed the tutorial for a succesful boot
 
 ### To Run
 `
-git clone https://github.com/not-hexil/helOS.git
-cd limine-barebones
-make all
-chmod +x makeISO.sh
-./makeISO.sh
-qemu-system-x86_64 -cdrom image.iso -m 512M -serial stdio
+git clone https://github.com/not-hexil/helOS.git  
+cd limine-barebones  
+make all  
+chmod +x makeISO.sh  
+./makeISO.sh  
+qemu-system-x86_64 -cdrom image.iso -m 512M -serial stdio  
 `
 
 ### Expected Result
