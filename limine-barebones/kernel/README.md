@@ -20,7 +20,7 @@ qemu-system-x86_64 -cdrom image.iso -m 512M -serial stdio
 
 ### Expected Result
 A gradient screen upon successful boot.
-
+![Output](image.png)
 ## To Do
 1. Codebase analysis
 2. Further refinement following the limine repository
