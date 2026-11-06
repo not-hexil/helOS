@@ -11,7 +11,7 @@ Followed the tutorial for a succesful boot
 ### To Run
 ```bash
 git clone https://github.com/not-hexil/helOS.git
-cd limine-barebones
+cd limine-barebones/kernel
 make all
 chmod +x makeISO.sh
 ./makeISO.sh
